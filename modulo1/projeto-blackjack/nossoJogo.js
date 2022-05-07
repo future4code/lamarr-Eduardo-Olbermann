@@ -37,4 +37,7 @@
 //    }
 // } else {
 //    console.log("O jogo acabou")
+
 // } 
+
+// }

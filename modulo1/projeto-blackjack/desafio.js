@@ -29,8 +29,11 @@ if (confirm("Quer iniciar uma nova rodada?")) {
    }
 
    let pontosUsuario = valorCartas(cartasUsuario)
+
    let pontosComputador = valorCartas(cartasComputador)
    let cancelouCompra = false
+
+
 
    while (pontosUsuario < 21) {
       let perguntaContinuar = `Suas cartas são ${formatarCartas(cartasUsuario)}. A carta revelada do computador é ${cartasComputador[0].texto}.\nDeseja comprar mais uma carta?`
@@ -40,10 +43,14 @@ if (confirm("Quer iniciar uma nova rodada?")) {
          pontosUsuario += cartaNova.valor
          cartasUsuario.push(cartaNova)
       } else {
+
          cancelouCompra = true
+
+
          break
       }
    }
+
 
    if (cancelouCompra) {
       while (pontosComputador < pontosUsuario) {
@@ -53,13 +60,20 @@ if (confirm("Quer iniciar uma nova rodada?")) {
       }
    }
 
+=======
+   let pontosComputador = valorCartas(cartasComputador)
+
    let mensagemResultado = `Suas cartas são ${formatarCartas(cartasUsuario)}. Sua pontuação é ${pontosUsuario}.\n`
    mensagemResultado += `As cartas do computador são ${formatarCartas(cartasComputador)}. A pontuação do computador é ${valorCartas(cartasComputador)}.\n`
 
    if (pontosUsuario === pontosComputador) {
       mensagemResultado += "Empate!"
    } else {
+
       if (pontosUsuario <= 21 && (pontosUsuario > pontosComputador || pontosComputador > 21)) {
+
+      if (pontosUsuario <= 21 && pontosUsuario > pontosComputador) {
+
          mensagemResultado += "Usuário ganhou!"
       } else {
          mensagemResultado += "Computador ganhou!"
@@ -85,4 +99,8 @@ function valorCartas(cartas) {
       valorPontos += carta.valor
    }
    return valorPontos
+
 } 
+
+}
+
