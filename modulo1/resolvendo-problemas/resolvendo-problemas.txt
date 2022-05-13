@@ -1,0 +1,3 @@
+Primeiro passo é sempre ler o enunciado várias vezes e até em voz alta ajuda também, e depois retirar informações importantes como nome de variaveis, se vai ter uma condição ou um loop etc.
+a terceira seria pensar em algumas funções e quais vão ser os parametros dela, a quarta seria viavel fazer um fluxograma visual para verificar condições e outra possíveis jeitos de fazer, a quinta você vai realmente montar o código independente do código ficar com muitas variaveis ou funções etc, a sexta seria testar de fato seu código para ver se funciona, se não funcionar você refaz
+e a ultima coisa seria diminuir o código, formatar, identar etc.
