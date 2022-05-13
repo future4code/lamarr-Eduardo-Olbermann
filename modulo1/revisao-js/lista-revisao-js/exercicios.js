@@ -77,35 +77,56 @@ function retornaNPrimeirosPares(n) {
     let i = 0
     while (arrayPares.length < n) {
         if (i % 2 === 0) {
-            arrayPares.push(i) 
+            arrayPares.push(i)
         }
-       i++ 
+        i++
     }
     return arrayPares
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+    if (ladoA === ladoB && ladoA === ladoC) {
+        return "Equilátero"
+    } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+        return "Isósceles"
+    } else {
+        return "Escaleno"
+    }
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+    let arrayVazio = []
 
+    let guardarArraySegundoMaior = array.sort(ordenarCrescente)[1]
+
+    let guardarArraySegundoMenor = array.reverse()[1]
+
+    arrayVazio.push(guardarArraySegundoMenor)
+    arrayVazio.push(guardarArraySegundoMaior)
+
+    return arrayVazio
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-
+    return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(", ")}.`
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
+    const novaPessoaAnonima = {
+        ...pessoa,
+        nome: "ANÔNIMO",
+    }
 
+    return novaPessoaAnonima
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
+
 
 }
 
