@@ -1,0 +1,20 @@
+/* Estilização da indexHTML */
+
+#imagem-logo-pagina-incial{
+    margin-left: 130px;    
+}
+#texto-pagina-inicial{
+    color: cornflowerblue;
+    font-size: 32px;
+}
+#texto-principal-pagina-inicial{
+    color: cornflowerblue;
+    margin-left: 130px;
+    background-color: cyan;
+    display: inline;
+}
+#rodape-pagina-inicial{
+    color: cornflowerblue;
+}
+
+

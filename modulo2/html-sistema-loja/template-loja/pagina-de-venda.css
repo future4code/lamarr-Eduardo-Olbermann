@@ -1,0 +1,9 @@
+#header-h1-pagina-venda{
+    color:green;
+    background-color: greenyellow;
+    display: inline
+}
+#texto-pagina-de-venda{
+    color: cornflowerblue;
+    font-size: 32px;
+}
