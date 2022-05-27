@@ -1,0 +1,72 @@
+#body-index {
+    background-image: url("img/logobanner.png");
+}
+
+.texto-h4 {
+    color: wheat;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    position: relative;
+    bottom: 25px;
+    text-shadow: 3px 3px 5px black;
+}
+
+#logos-redes-sociais {
+    padding: 100px;
+}
+
+a {
+    position: relative;
+    left: 390px;
+    top: 10px;
+    padding: 10px;
+}
+
+.home {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: wheat;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.sobremim {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: wheat;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.contato {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: wheat;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.projetos {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: wheat;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 3px 3px 5px black;
+}

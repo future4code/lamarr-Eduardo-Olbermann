@@ -1,0 +1,85 @@
+#fundo-pagina-sobre-mim {
+    background-image: url("img/logobanner.png");
+}
+
+#div-h1 {
+    color: wheat;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: cursive;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#texto-sobre-mim {
+    color: wheat;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: cursive;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#div-h3-soft-skills {
+    color: wheat;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px black;
+}
+
+#lista-soft-skills {
+    color: wheat;
+    text-align: left;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+    padding: 30px;
+    list-style-type: none;
+}
+
+#texto-instituicoes {
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+}
+
+#lista-escola {
+    color: wheat;
+    text-align: left;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+    padding: 50px;
+    list-style-type: none;
+}
+
+#h2-empresas {
+    color: wheat;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#lista-empresas {
+    color: wheat;
+    text-align: left;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-align: center;
+    position: relative;
+    left: 420px;
+    bottom: 20px;
+    padding-left: 10px;
+    font-size: 32px;
+    font-family: cursive;
+    color: wheat;
+    Text-decoration: none;
+    text-shadow: 3px 3px 5px black;
+}

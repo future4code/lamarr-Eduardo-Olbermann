@@ -1,0 +1,97 @@
+.background-blackjack {
+    background-image: url(img/jogoblacjack.jpg);
+}
+
+.h1-projeto {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.h2-descricao {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+    padding: 30px;
+}
+
+.texto-p {
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: cursive;
+}
+
+.secao-github {
+    position: relative;
+    top: 40px;
+    color: white;
+    font-size: 22px;
+    Text-decoration: none;
+    font-family: cursive;
+}
+
+.texto-linguagens-usadas {
+    text-align: left;
+    margin-top: 100px;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: cursive;
+}
+
+li {
+    list-style-type: none;
+}
+
+.home {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: white;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.sobremim {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: white;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.contato {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: white;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.projetos {
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-size: 32px;
+    font-family: cursive;
+    color: white;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 2px 2px 5px black;
+}
