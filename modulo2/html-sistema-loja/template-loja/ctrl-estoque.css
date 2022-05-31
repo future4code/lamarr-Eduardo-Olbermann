@@ -1,0 +1,10 @@
+#texto-controle-estoque {
+    color:green;
+    background-color: greenyellow;
+    display: inline
+}
+#controle-estoque{
+    color:cornflowerblue;
+    margin-left: 80px;
+    font-size: 32px
+}
