@@ -1,0 +1,46 @@
+#body-index {
+    background-image: url("img/logobanner.png");
+}
+
+#div-index {
+    position: relative;
+    top: 290px;
+    left: 40px;
+}
+
+#texto-h1 {
+    color: wheat;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    text-shadow: 3px 3px 5px black;
+}
+
+#texto-h2 {
+    color: wheat;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    position: relative;
+    bottom: 25px;
+    text-shadow: 3px 3px 5px black;
+}
+
+a {
+    text-align: center;
+    position: relative;
+    left: 420px;
+    bottom: 50px;
+    font-size: 32px;
+    font-family: cursive;
+    color: wheat;
+    Text-decoration: none;
+    padding-left: 10px;
+    text-shadow: 3px 3px 5px black;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden
+}
