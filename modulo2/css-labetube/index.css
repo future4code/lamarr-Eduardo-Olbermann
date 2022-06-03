@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-futuretube {
+    display: flex;
+    height: 75px;
+    background-color: darkgoldenrod
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: start;
+    gap: 10px;
+    margin: 15px;
+}
+
+#text-futuretube {
+    margin: 22px;
+    position: relative;
+    right: 12px;
+}
+
+#text-barra-de-busca {
+    float: right;
+    padding: 8px;
+    border: none;
+    position: relative;
+    left: 75%;
+    margin-top: 20px;
+    width: 75px;
+    height: 10px;
+    font-size: 12px;
+}
+
+#imagem-1 {
+    border: 1px solid green;
+}
+
+#imagem-2 {
+    border: 1px solid green;
+}
+
+#imagem-3 {
+    border: 1px solid green;
+}
+
+#imagem-4 {
+    border: 1px solid green;
+}
+
+#imagem-5 {
+    border: 1px solid green;
+}
+
+#imagem-6 {
+    border: 1px solid green;
+}
+
+#imagem-7 {
+    border: 1px solid green;
+}
+
+#imagem-8 {
+    border: 1px solid green;
+}
+
+img {
+    width: 198px;
+    height: 198px;
+    padding-bottom: 15px;
+
+}
+
+footer {
+    display: flex;
+    justify-items: start;
+    background-color: darkslategrey;
+    height: 75px;
+    font-size: 26px;
+    color: white;
+    position: relative;
+    top: 153px;
+    padding: 15px;
+    padding-left: 5px;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
