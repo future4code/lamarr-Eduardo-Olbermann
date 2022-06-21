@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-futuretube {
+    display: flex;
+    height: 75px;
+    background-color: darkgoldenrod
+}
+
+.container {
+    display: grid;
+    justify-content: start;
+    gap: 10px;
+    margin: 10px;
+}
+
+#text-futuretube {
+    margin: 22px;
+    position: relative;
+    right: 12px;
+}
+
+#text-barra-de-busca {
+    float: right;
+    padding: 8px;
+    border: none;
+    position: relative;
+    left: 70%;
+    margin-top: 20px;
+    width: 190px;
+    height: 10px;
+    font-size: 12px;
+}
+
+#text-titulo {
+    margin: 5px;
+}
+
+video {
+    width: 650px;
+}
+
+footer {
+    display: flex;
+    justify-items: start;
+    background-color: darkslategrey;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 226px;
+    padding: 9px;
+    padding-left: 5px;
+}
+
+body {
+    overflow: hidden;
+}
