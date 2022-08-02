@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 10rem;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
