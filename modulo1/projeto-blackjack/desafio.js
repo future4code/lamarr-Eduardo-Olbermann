@@ -60,7 +60,6 @@ if (confirm("Quer iniciar uma nova rodada?")) {
       }
    }
 
-=======
    let pontosComputador = valorCartas(cartasComputador)
 
    let mensagemResultado = `Suas cartas são ${formatarCartas(cartasUsuario)}. Sua pontuação é ${pontosUsuario}.\n`
@@ -101,6 +100,4 @@ function valorCartas(cartas) {
    return valorPontos
 
 } 
-
 }
-
