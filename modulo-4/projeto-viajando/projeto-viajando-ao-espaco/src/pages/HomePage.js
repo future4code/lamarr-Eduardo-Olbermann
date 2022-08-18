@@ -12,7 +12,9 @@ const HomePage = () => {
     return (
         <>
             <h1>Página Inicial</h1>
-            <button onClick={goToPageApplicationFormPage}>Inscrever-se</button>
+
+            <button onClick={goToPageApplicationFormPage}>Inscrever-se para uma Viagem</button>
+
             <button onClick={goToPageLogin}>Login</button>
         </>
     )

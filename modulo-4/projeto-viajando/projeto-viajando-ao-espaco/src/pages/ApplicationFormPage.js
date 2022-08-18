@@ -2,11 +2,13 @@ import axios from "axios";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "../Hooks/useForm";
+import useProtected from "../Hooks/useProtected";
 
 const ApplicationFormPage = () => {
+    useProtected()
     const login = (event) => {
         event.preventDefault()
-        axios.post("https://us-central1-labenu-apis.cloudfunctions.net/labeX/eduardo-floss-lamarr/trips/:id/apply", form)
+        axios.post("https://us-central1-labenu-apis.cloudfunctions.net/labeX/darvas/trips/:id/apply", form)
             .then((response) => console.log(response.data))
             .catch((error) => console.log(error.message))
 
@@ -34,10 +36,6 @@ const ApplicationFormPage = () => {
                     <option value={"esc"}>Escolha um País</option>
                     <option value={"bra"}>Brasil</option>
                 </select>
-
-
-
-
 
                 <button onClick={goToHome}>Home Page</button>
                 <button type="submit">Enviar Inscrição!</button>
